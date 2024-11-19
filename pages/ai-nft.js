@@ -4,7 +4,7 @@ import axios from 'axios';
 import Link from 'next/link';
 import styles from './ai-nft.module.css';
 
-// Minimal ERC721 ABI with necessary functions
+// Minimal ERC721 ABI with necessary function
 const ERC721_ABI = [
   'function tokenURI(uint256) view returns (string)',
   'function ownerOf(uint256) view returns (address)',
